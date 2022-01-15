@@ -20,10 +20,11 @@ header {
 }
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0  auto;
 }
 nav {
   display: flex;
+
 }
 .nav-links > ul {
   display: grid;
@@ -64,9 +65,7 @@ button {
   padding: 10px 24px;
   cursor: pointer;
 }
-button:active {
-  /* transform: translateY(3px); */
-}
+
 button:hover {
   transform: scale(1.17);
 }
@@ -111,6 +110,29 @@ span {
 .see-more:hover {
   transform: translateX(10px);
 }
+/* Form part style  */
+.form{
+  margin-top: 60px;
+  display: flex;
+justify-content: center;  
+}
+#email{
+  padding: 8px;
+  border-radius: 5px;
+}
+#email:hover{
+  background-color: lightgray;
+}
+.form-button{
+  margin-top: 10px;
+}
+.subsribe{
+  font-size: 35px;
+  font-weight: 700;
+}
+.b{
+  color: #e02c6d;
+}
 /* Footer part style */
 .footer-items {
   height: 230px;
@@ -126,4 +148,14 @@ span {
 .footer-text{
   font-size: 15px;
   margin: 10px 0;
+}
+.social-media a{
+  margin: 0 10px;
+
+}
+.social-media .fab{
+  color: white;
+  border: 1px solid rgba(255, 255, 255, .3);
+  padding: 5px;
+  border-radius: 50%;
 }
