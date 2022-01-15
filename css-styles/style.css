@@ -65,22 +65,42 @@ button {
   cursor: pointer;
 }
 button:active {
-  transform: translateY(3px);
+  /* transform: translateY(3px); */
 }
 button:hover {
-  background-color: #b8577a;
+  transform: scale(1.17);
+
 }
 /* ==========
     Popular Collection part styles
     ======== */
-.item-card {
-  box-shadow: 0  0 40px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+.section-header{
+  text-align: center;
+  margin: 40px 0;
+
 }
-.item-card>.card- img{
+    .item-card {
+  box-shadow: 0  0 40px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 15px;
+}
+.item-info .price{
+  font-size: 19px;
+  margin: 15px 0;
 }
 .collection-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
+.rating{
+  color: orange;
+  font-weight: 300;
+}
+
+
+
+span{
+  color: black;
 }
